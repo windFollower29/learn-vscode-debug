@@ -1,0 +1,12 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"  // node支持的不转码
+        },
+      }
+    ]
+  ]
+}
